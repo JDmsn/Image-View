@@ -12,6 +12,7 @@ import java.io.IOException;
 import java.awt.image.BufferedImage;
 
 public class FileImageReader implements ImageReader {
+    
     File[] images;
 
     protected static String[] fileTypes = {".png",".jpg",".bmp"};
